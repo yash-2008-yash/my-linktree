@@ -30,6 +30,7 @@ export default function Home() {
         <LinkCell href={"https://www.linkedin.com/in/yashwanth-m-yash/"} src={"/linkedin.jpg"} alt={"LinkedIn"} title={"LinkedIn"} scale={1} />
       </div>
 
+      <div className="mt-10"></div>
       <Separator />
 
       {/* Projects */}
@@ -41,6 +42,7 @@ export default function Home() {
         <LinkCell href={"https://memezilla-by-yashwanth-m.vercel.app/"} src={"/memezilla.jpg"} alt={"MemeZilla"} title={"MemeZilla"} scale={1} />
       </div>
 
+      <div className="mt-10"></div>
       <Separator />
 
       {/* Contact */}
