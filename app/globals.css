@@ -18,8 +18,20 @@ body {
   font-style: normal;
 }
 
-@theme {
-  --color-gray: rgb(10,10,10);
+@keyframes goldPulse {
+
+  0%,
+  100% {
+    box-shadow: 0 0 15px 4px rgba(212, 175, 55, 0.6);
+  }
+
+  50% {
+    box-shadow: 0 0 30px 10px rgba(212, 175, 55, 0.9);
+  }
+}
+
+.golden-glow {
+  animation: goldPulse 2s ease-in-out infinite;
 }
 
 @import "tailwindcss";
