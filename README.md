@@ -4,7 +4,7 @@
 
 I wanted to create a **Linktree** account, and then I realized that a Linktree page is just a page of `<a></a>` tags. So, why not make my own? That's exactly what I did here.
 
-Check it out: https://my-linktree.vercel.app
+Check it out: https://yashwanth-linktree.vercel.app/
 
 ## About
 
